@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion, AnimatePresence, delay } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 type ImageSliderProps = {
     images: string[]
