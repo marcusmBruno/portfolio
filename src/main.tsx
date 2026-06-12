@@ -6,6 +6,9 @@ import "@fontsource/calistoga";
 import { HomePage } from './pages/HomePage.tsx'
 import { ProjectsPage } from './pages/ProjectsPage.tsx'
 import { AboutMePage } from './pages/AboutMePage.tsx'
+import { inject } from '@vercel/analytics'
+
+inject()
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>

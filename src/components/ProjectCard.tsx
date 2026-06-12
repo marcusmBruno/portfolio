@@ -56,13 +56,13 @@ function ProjectItem({ project }: { project: Project }) {
                     <>
                         <button
                             onClick={handlePrev}
-                            className="absolute left-2 top-1/2 -translate-y-1/2 p-2 rounded-full bg-zinc-900/60 text-zinc-100 opacity-0 group-hover:opacity-100 transition-opacity border border-zinc-800"
+                            className="absolute left-2 top-1/2 -translate-y-1/2 p-2 rounded-full bg-zinc-900/60 text-zinc-100 md:opacity-0 group-hover:opacity-100 transition-opacity border border-zinc-800"
                         >
                             <FaChevronLeft size={12} />
                         </button>
                         <button
                             onClick={handleNext}
-                            className="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full bg-zinc-900/60 text-zinc-100 opacity-0 group-hover:opacity-100 transition-opacity border border-zinc-800"
+                            className="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full bg-zinc-900/60 text-zinc-100 md:opacity-0 group-hover:opacity-100 transition-opacity border border-zinc-800"
                         >
                             <FaChevronRight size={12} />
                         </button>

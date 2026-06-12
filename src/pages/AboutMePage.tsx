@@ -1,6 +1,6 @@
 export function AboutMePage() {
     return (
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-4">
             <div>
                 <h1 className="font-medium text-3xl text-white mb-2">Hi, I'm Marcus,</h1>
                 <p className="text-lg text-justify text-wrap tracking-wide text-zinc-300 leading-relaxed">
