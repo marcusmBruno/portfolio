@@ -112,10 +112,10 @@ export function HomePage() {
                     <p className="text-base md:text-md">i design, build and deploy production-ready web and mobile applications, turning clean code into real-world solutions. </p>
                     <div className="flex gap-4 items-center mt-2">
                         <DownloadButton />
-                        <a href="" className="hover:text-zinc-600">
+                        <a href="https://www.linkedin.com/in/marcus-bruno-7a285126a/" target="_blank" className="hover:text-zinc-600">
                             <FaLinkedin size={24} />
                         </a>
-                        <a href="" className="hover:text-zinc-600">
+                        <a href="mailto:marcusbruno615@gmail.com" target="_blank" className="hover:text-zinc-600">
                             <FaEnvelope size={24} />
                         </a>
                     </div>
